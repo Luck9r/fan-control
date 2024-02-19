@@ -24,8 +24,6 @@ void setup() {
   display.flipScreenVertically();     // Flip the screen vertically
   display.setFont(ArialMT_Plain_10); // Set font for the display
   display.setTextAlignment(TEXT_ALIGN_LEFT); // Set text alignment
-  display.drawString(0, 0, "Hello World!"); // Display a greeting message
-  display.display();                 // Display the message
   relay = true;                      // Initialize relay state to ON
   pinMode(10, INPUT_PULLUP);         // Set pin 10 as input with pull-up resistor
   pinMode(11, INPUT_PULLUP);         // Set pin 11 as input with pull-up resistor
